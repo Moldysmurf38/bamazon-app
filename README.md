@@ -2,13 +2,13 @@
 
 ### **Project Description:**
 
-An application that utilizes MySQL database and a node.js interface to create an interactive store inventory.
+An application that utilizes MySQL database and a node.js to create an interactive store inventory that runs via Command Prompt or Git Bash window.
 
 ### **Getting Started:**
 
-Create and use your own MySQL database using the MySQL workbench. Use the given schema file to create and fill the table that is needed for the app.
+Seed the MySQL database with the data from the file BamazonSchema.sql file.
 
-Add your MySQL user and password information into the bamazonCustomer.js file.
+Add your MySQL user and password information into the connection section of the bamazonCustomer.js file.
 
 When you want to run the application, type npm start into the command line within the terminal of the app's main directory.
 
@@ -49,19 +49,22 @@ If you select that you are done shopping, then you will end the script. <br/>
 
 ### **Prerequisites:**
 
-Node.js
+You must create and use your own MySQL database. You can do so here: https://www.mysql.com/downloads/.
 
-MySQL Workbench
+Ensure that your MySQL database is up and running.
 
-NPM files (see installing section)
+Install node.js locally: https://nodejs.org/en/
 
 ### **Installing:**
 
-Make sure you do "npm install" in the command line of app's main directory to download the needed npm files.
+Clone a copy of the app onto your computer.
+
+In the main directory of the app, open the Command Prompt or Git Bash window and type "npm install" in order to install the required npm packages to run the app.
 
 ### **Future Features:**
 
-
+Add UI for a deployed version of the app<br/>
+Create more options and inventory for more interactions
 
 ### **Built With:**
 
